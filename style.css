@@ -1,0 +1,85 @@
+* {
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+}
+body {
+    height: 100vh;
+}
+
+.h1 {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.main-container {
+    width: 100%;
+    height: 92%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.divSmall {
+    text-align: center;
+    margin: 7px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    height: 205px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    transition: .5s;
+}
+.divSmall:hover {
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.imageNew {
+    width: 100%;
+}
+
+.h3 {
+    font-size: 15px;
+    padding: 5px;
+}
+.divSmall > .h3:hover {
+    background-color: aquamarine;
+}
+.divText {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+.divText > .p1, .divText > .p2 {
+    font-size: 12px;
+}
+
+.showMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    width: 150px;
+    height: 205px;
+    border-radius: 8px;
+    margin: 7px;
+    cursor: pointer;
+}
+.showMore > .showMore_h3 {
+    font-size: 15px;
+}
+
+.showMore_plus {
+    margin-top: 5px;
+    font-size: 50px;
+}

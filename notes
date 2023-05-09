@@ -1,0 +1,18 @@
++ 1. create a div for the text up
++ 2. add wid and height/ change the color 
+
++ 3. create the big container for the pics 
++ 4. loop through the list of objects, creating containers 
+with photos + add text to each element
+   + 4a. create images elements and add to the container 
+   + 4b. create p elements and add to the container 
+   + 4c. using 'for of' loop, loop through the elements
+        with 4a and 4b inside
+   + 4d. append 4a and 4b to the 4c, and append the container for 
+            pictures to the "main-container"
+
+5. add hover effect in CSS
+6. add transition and transfer(scale) in CSS 
+7. add box shadow in CSS 
+8. add margin to all of the elements 
+9. use the flex-wrap: wrap to the main container 
